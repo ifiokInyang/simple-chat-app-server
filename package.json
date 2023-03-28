@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc --w",
-    "dev": "nodemon dist/index.js"
+    "start:dev": "nodemon dist/index.js",
+    "start:prod": "node dist/index.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
